@@ -40,11 +40,14 @@ DOWNLOAD_DELAY = 1
 
 # Override the default request headers:
 DEFAULT_REQUEST_HEADERS = {
-        'Proxy-Authorization':'Basic aGFwcHlvbmUxMjU4MUAxNjMuY29tOjYzMTA0MDMzNVFx',
+        #Proxy-Authorization要填入由自己的账号密码生成base64加密字符串
+        'Proxy-Authorization':'Basic xxxxxxxxxxxxxxxxx',
         'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
         'Accept-Language': 'en',
-        'cookie':'advanced-frontend=vvno99hdav0e9upojv8fv1ps5e',
+        #cookie要填入获得代理那个网页的cookie
+        'cookie':'advanced-frontend=xxxxxxxxxxxxxxxxx',
         'user-agent': "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36",
+
 }
 
 # Enable or disable spider middlewares
